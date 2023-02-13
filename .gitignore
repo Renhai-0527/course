@@ -6,3 +6,6 @@ GNUmakefile
 r000*/
 .wip/
 *.exe
+
+.vscode
+.cache

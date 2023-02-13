@@ -32,5 +32,7 @@ int main() {
     myfunc();
     interact();
     for (auto &t: pool) t.join();  // 等待池里的线程全部执行完毕
+
+    std::cout<<pool.size()<<std::endl;
     return 0;
 }
